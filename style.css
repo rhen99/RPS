@@ -1,0 +1,68 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	background-color: #fff;
+	color: #333;
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+	line-height: 1.6;
+}
+.container {
+	max-width: 1100px;
+	margin: auto;
+	text-align: center;
+	padding: 0 2rem;
+	overflow: hidden;
+}
+.score {
+	display: flex;
+}
+.players {
+	flex: 1;
+	font-size: 0.9rem;
+	background-color: rgb(59, 59, 228);
+	color: #fff;
+}
+.players:nth-child(2) {
+	color: #333;
+	background-color: rgb(212, 212, 212);
+}
+
+.visual {
+	height: 50vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.result {
+	flex: 1;
+}
+.result p {
+	font-size: 2rem;
+}
+
+.btn {
+	display: none;
+	margin: 1rem 0;
+	border: 0;
+	background-color: rgb(59, 59, 228);
+	color: #fff;
+	font-size: 1rem;
+	padding: 0.5rem 1rem;
+}
+.choices {
+	background-color: #ddd;
+	padding: 1rem;
+}
+.choices a {
+	margin: 0 3rem;
+	cursor: pointer;
+	color: #333;
+	transition: color 300ms;
+	text-decoration: none;
+}
+.choices a:hover {
+	color: rgb(59, 59, 228);
+}
